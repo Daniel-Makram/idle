@@ -1,0 +1,39 @@
+@import "button";
+html{
+  background-color: rgb(255, 249, 239);
+}
+img {
+
+    width:40px;
+    height:40px;
+  }
+body{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  
+    *{
+      margin-top: 5px;
+    }
+}
+div {
+
+  .upgrades__name{
+
+    margin-right: 10px;
+  }
+}
+
+.upgrades{
+
+  
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  
+    *{
+      flex: 1 0 30%;
+    }
+}

@@ -1,0 +1,28 @@
+button {
+
+    outline: none;
+    background-color: #6adbc3; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+
+        &:hover{
+            opacity: .9;
+        }
+
+        &:disabled{
+            color: rgb(51, 51, 51);
+            background-color: tomato;
+            cursor:not-allowed;
+        }
+        &:active{
+            opacity: .5;
+        }
+  }
+
+  .button__earn{
+
+      background-color: rgb(86, 237, 86);
+  }
